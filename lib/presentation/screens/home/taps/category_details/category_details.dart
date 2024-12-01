@@ -3,6 +3,7 @@ import 'package:news_app/data/api/api_manager/api_manager.dart';
 import 'package:news_app/data/model/sources_response/source.dart';
 import 'package:news_app/data_model/category_DM/categoryDM.dart';
 import 'package:news_app/presentation/screens/home/taps/category_details/widget/sources_widget/sources_widget.dart';
+import 'package:provider/provider.dart';
 
 class CategoryDetails extends StatelessWidget {
   CategoryDetails({super.key, required this.categoryDM});
